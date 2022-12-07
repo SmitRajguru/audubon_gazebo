@@ -4,8 +4,8 @@
 
   <!-- global variables -->
   <arg name='world_name' default='testing_ground' />
-  <arg name='kbd_control' default='true' />
-  <arg name='rmt_control' default='true' />
+  <arg name='kbd_control' default='false' />
+  <arg name='rmt_control' default='false' />
 
   <!-- global map server -->
   <!--
