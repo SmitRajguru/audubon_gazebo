@@ -4,7 +4,8 @@
 
   <!-- global variables -->
   <arg name='world_name' default='testing_ground' />
-  <arg name='kbd_control' default='false' />
+  <arg name='kbd_control' default='true' />
+  <arg name='rmt_control' default='true' />
 
   <!-- global map server -->
   <!--
@@ -22,6 +23,7 @@
     <arg name='run_gazebo' value='true' />
     <arg name='world_name' value='$(arg world_name)' />
     <arg name='keyboard_control' value='$(arg kbd_control)'/>
+    <arg name='remote_control' value='$(arg rmt_control)'/>
     <arg name='publish_map' value='false' />
   </include>
 
